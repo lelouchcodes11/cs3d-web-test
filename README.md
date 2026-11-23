@@ -1,10 +1,11 @@
-# CS3D Local Engine Releases
+# CS3D releases
 
-Download the latest **CS3D Local Engine** archive from [Releases](https://github.com/lelouchcodes11/cs3d-web-test/releases/latest) to power the hosted CS3D Web app with zero server video bandwidth.
+Downloads for **[CS3D Web](https://cs3d-web.vercel.app)** — a streaming site for CloudStream extensions.
+The extensions run in the CS3D engine on your computer; get it from the [latest release](https://github.com/lelouchcodes11/cs3d-web-test/releases/latest).
 
-## Quick Start
-1. Download `cs3d-engine-windows-x64.zip` (Windows) or `cs3d-engine-unix.tar.gz` (macOS / Linux) from the latest release.
-2. Extract the archive and run `Run-CS3D-Engine.bat` (Windows) or `./run-cs3d-engine.sh` (macOS / Linux).
-3. Open your hosted CS3D Web app — it connects automatically to `http://127.0.0.1:8080` and notifies you whenever a newer release is available here.
+| Platform | File | |
+|---|---|---|
+| Windows 10/11 | [CS3D-Setup-x64.exe](https://github.com/lelouchcodes11/cs3d-web-test/releases/latest/download/CS3D-Setup-x64.exe) | Run it and click Install. Java is built in, no administrator rights needed. CS3D runs in the tray, opens CS3D Web in its own window and updates itself. |
+| macOS / Linux | [cs3d-engine-unix.tar.gz](https://github.com/lelouchcodes11/cs3d-web-test/releases/latest/download/cs3d-engine-unix.tar.gz) | Needs Java 21. Extract, run `./run-cs3d-engine.sh`, then open https://cs3d-web.vercel.app. |
 
-> Requires Java 21 (JRE/JDK). Automatically shuts down after 20 minutes of inactivity to keep RAM usage at 0 MB.
+Your extensions, library and history are kept in `~/.cs3d-web` across updates.
